@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.02em;
 }
 h1 {
-  font-size: 40px;
+  font-size: 45px;
   margin-top: 0;
   padding-top: 0;
   padding-bottom: 15px;
@@ -170,9 +170,9 @@ img.profile {
 /* Connect */
 
 .connect .fa {
-  font-size: 250%;
+  font-size: 225%;
   margin-bottom: 20px;
-  margin-right: 20px;
+  margin-right: 25px;
 }
 
 /* Footer */
