@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.02em;
 }
 h1 {
-  font-size: 45px;
+  font-size: 275%;
   margin-top: 0;
   padding-top: 0;
   padding-bottom: 15px;
@@ -91,7 +91,7 @@ h2 {
   padding-bottom: 20px;
 }
 p {
-  font-size: 100%;
+  font-size: 125%;
   margin-bottom: 20px;
 }
 a, a:visited, a:hover {
@@ -137,12 +137,6 @@ hr {
 .bs-docs-masthead a, .bs-docs-masthead a:visited, .bs-docs-masthead a:hover {
   color: #fff;
 }
-.bs-docs-masthead .fa {
-  font-size: 40px;
-  margin-right: 10px;
-  margin-top: 10px;
-  padding: 15px 20px;
-}
 .bs-docs-masthead img {
   margin-bottom: 10px;
 }
@@ -169,6 +163,15 @@ img.profile {
 .team .fa {
   font-size: 20px;
   margin-right: 10px;
+}
+
+/* Subscribe */
+
+.subscribe .fa {
+  font-size: 325%;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 /* Connect */
