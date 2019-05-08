@@ -237,3 +237,18 @@ a.btn:hover, .btn:hover {
   font-size: 90%;
   margin-bottom: 10px;
 }
+
+/* Player */
+
+.plyr--audio .plyr__controls {
+  background: #000;
+  border-radius: 5px;
+}
+.plyr--full-ui input[type="range"] {
+  color: #F8E71C;
+}
+.plyr--audio .plyr__control.plyr__tab-focus,.plyr--audio .plyr__control:hover,.plyr--audio .plyr__control[aria-expanded=true] {
+  background:#F8E71C;
+  color:#000
+}
+
