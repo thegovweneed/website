@@ -248,6 +248,12 @@ a.btn:hover, .btn:hover {
   margin-bottom: 10px;
 }
 
+/* Podcasts */
+
+.podcasts img {
+  max-width: 150px;
+}
+
 /* Player */
 
 .plyr--audio .plyr__controls {
