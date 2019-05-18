@@ -173,16 +173,8 @@ img.profile {
 .subscribe .fa {
   font-size: 325%;
   margin-bottom: 20px;
-  margin-left: 25px;
-  margin-right: 25px;
-}
-
-/* Connect */
-
-.connect .fa {
-  font-size: 225%;
-  margin-bottom: 20px;
-  margin-right: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /* Footer */
