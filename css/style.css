@@ -81,18 +81,20 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.02em;
 }
 h1 {
-  font-size: 250%;
+  font-size: 48px;
+  line-height: 1.2;
   margin-top: 0;
   padding-top: 0;
   padding-bottom: 15px;
 }
 h2 {
-  font-size: 35px;
   padding-bottom: 20px;
 }
 p {
-  font-size: 100%;
   margin-bottom: 20px;
+}
+p.lead {
+  font-size: 22px;
 }
 a, a:visited, a:hover {
 	color: #000000;
@@ -125,16 +127,10 @@ hr {
   margin: 0 auto 30px;
 }
 .bs-docs-masthead h1 {
-  font-weight: 900;
-  line-height: 1.1;
   color: #fff;
-}
-.bs-docs-masthead p {
-  font-size: 120%;
 }
 .bs-docs-masthead {
   margin: 0 auto 30px;
-  font-size: 20px;
   color: #fff;
 }
 .bs-docs-masthead a, .bs-docs-masthead a:visited, .bs-docs-masthead a:hover {
@@ -163,14 +159,14 @@ img.profile {
   margin-top: 20px;
 	max-width: 150px;
 }
-.team .fa {
-  font-size: 20px;
+.team .fab {
+  font-size: 18px;
   margin-right: 10px;
 }
 
 /* Subscribe */
 
-.subscribe .fa {
+.subscribe .fa, .subscribe .fab, .subscribe .fas {
   font-size: 325%;
   margin-bottom: 20px;
   margin-left: 20px;
