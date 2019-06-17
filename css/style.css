@@ -172,6 +172,10 @@ img.profile {
 
 /* Subscribe */
 
+.subscribe img {
+  width: 100%;
+  max-width: 90px;
+}
 .subscribe .fa, .subscribe .fab, .subscribe .fas {
   font-size: 325%;
   margin-bottom: 20px;
