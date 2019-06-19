@@ -183,6 +183,20 @@ img.profile {
   margin-right: 20px;
 }
 
+/* Listen */
+
+.listen {
+  color: #fff;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  background-color: #000;
+}
+.listen h2 {
+  color: #fff;
+}
+
 /* Footer */
 
 .footer {
