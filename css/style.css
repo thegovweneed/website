@@ -163,7 +163,7 @@ hr {
 img.profile {
 	border-radius: 50%;
   margin-top: 20px;
-	max-width: 150px;
+	max-width: 200px;
 }
 .team .fab {
   font-size: 18px;
@@ -174,10 +174,10 @@ img.profile {
 
 .subscribe img {
   width: 100%;
-  max-width: 90px;
+  max-width: 70px;
 }
 .subscribe .fa, .subscribe .fab, .subscribe .fas {
-  font-size: 325%;
+  font-size: 275%;
   margin-bottom: 20px;
   margin-left: 20px;
   margin-right: 20px;
@@ -195,6 +195,10 @@ img.profile {
 }
 .listen h2 {
   color: #fff;
+}
+.listen img {
+  max-width: 400px;
+  width: 100%;
 }
 
 /* Footer */
