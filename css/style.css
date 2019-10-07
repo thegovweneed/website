@@ -161,9 +161,8 @@ hr {
 /* Team */
 
 img.profile {
-	border-radius: 50%;
   margin-top: 20px;
-	max-width: 200px;
+	max-width: 250px;
 }
 .team .fab {
   font-size: 18px;
@@ -172,6 +171,15 @@ img.profile {
 
 /* Subscribe */
 
+.subscribe-channel {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 20px;
+  height: 200px;
+}
+.subscribe-channel a {
+  display: block;
+}
 .subscribe img {
   width: 100%;
   max-width: 70px;
@@ -181,6 +189,20 @@ img.profile {
   margin-bottom: 20px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+/* Connect */
+
+.connect {
+  font-size: 275%;
+}
+.connect a {
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  display: block;
+  padding: 30px;
 }
 
 /* Listen */
