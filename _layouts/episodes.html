@@ -1,0 +1,81 @@
+---
+layout: episodes
+---
+{% include header.html %}
+{% include nav.html %}
+<main>
+    <div class="jumbotron jumbotron-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="{{ site.url }}"><img src="{{ site.url }}/img/avatar.png" alt="{{ site.name }}: {{ site.description }}"></a>
+                </div>
+                <div class="col-md-9">
+                    <h1>{{ page.title }}</h1>
+                    <p class="lead">{{ page.excerpt }}</p>
+                    <p class="number">Episode #{{ page.number }} / {{ page.date | date: "%B %-d, %Y"}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container news">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Listen</h2>
+            </div>
+        </div>
+        <div class="row section">
+            <div class="col-md-3">
+                <img src="{{ site.url }}/img/people/{{ page.feat-img }}" alt="{{ page.feat-img-alt }}">
+            </div>
+            <div class="col-md-9">
+                <audio id="player" controls 'play-large'>
+                    <source src="/audio/{{ page.audio }}" type="audio/mp3" />
+                </audio>
+                <uL>
+                    {% if page.apple %}
+                    <li><a href="{{ page.apple }}">Listen on Apple Podcasts</a></li>
+                    {% endif %}
+                    {% if page.spotify %}
+                    <li><a href="{{ page.spotify }}">Listen on Spotify</a></li>
+                    {% endif %}
+                    {% if page.stitcher %}
+                    <li><a href="{{ page.stitcher }}">Listen on Stitcher</a></li>
+                    {% endif %}
+                    {% if page.pocketcasts %}
+                    <li><a href="{{ page.pocketcasts }}">Listen on Pocket Casts</a></li>
+                    {% endif %}
+                </uL>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-9">
+                <h2>Notes</h2>
+                {{ content }}
+                {{ page.related }}
+                <h2>Topics</h2>
+                <div class="post-categories">
+                    {% if post %}
+                    {% assign categories = post.categories %}
+                    {% else %}
+                    {% assign categories = page.categories %}
+                    {% endif %}
+                    <ul class="nav nav-pills">
+                        {% for category in categories %}
+                        <li class="nav-item">
+                            <a href="{{site.baseurl}}/topics/{{category|slugify}}">{{ category | capitalize }}</a></li>
+                        {% unless forloop.last %}&nbsp;{% endunless %}
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+    </div>
+    {% include episodes.html %}
+    {% include subscribe.html %}
+</main>
+{% include footer.html %}

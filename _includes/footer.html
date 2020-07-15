@@ -1,0 +1,56 @@
+<footer>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="{{ site.url }}"><img src="{{ site.url }}/img/avatar.png" alt="{{ site.name }}: {{ site.description }}"></a>
+                </div>
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-4">
+                    <p>
+                        {% if site.subscribe_link %}
+                        <a href="{{ site.subscribe_link }}"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        {% endif %}
+                        {% if site.twitter_username %}
+                        <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                        {% endif %}
+                        {% if site.facebook_link %}
+                        <a href="{{ site.facebook_link }}"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                        {% endif %}
+                        {% if site.instagram_username %}
+                        <a href="https://instagram.com/{{ site.instagram_username }}"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        {% endif %}
+                        {% if site.medium_link %}
+                        <a href="{{ site.medium_link }}"><i class="fab fa-medium" aria-hidden="true"></i></a>
+                        {% endif %}
+                        {% if site.linkedin_link %}
+                        <a href="{{ site.linkedin_link }}"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                        {% endif %}
+                        {% if site.github_username %}
+                        <a href="https://github.com/{{ site.github_username }}"><i class="fab fa-github" aria-hidden="true"></i></a>
+                        {% endif %}
+                        {% if site.rss %}
+                        <a href="{{ site.url }}/{{ site.rss }}"><i class="fas fa-rss" aria-hidden="true"></i></a>
+                        {% endif %}
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <ul>
+                        {% for item in site.data.about.docs %}
+                        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+{% if jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+<!-- Audio player -->
+<script src="https://cdn.plyr.io/3.6.2/plyr.polyfilled.js"></script>
+</body>
+
+</html>

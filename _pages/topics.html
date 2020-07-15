@@ -1,0 +1,22 @@
+---
+layout: default
+title: Topics
+description: The Government We Need topics.
+excerpt: The Government We Need topics.
+jumbotron: jumbotron-secondary
+---
+<div class="container section">
+    <div class="row">
+        <div class="col-md-12">
+            <ul class="nav nav-pills">
+                {% for page in site.topics %}
+                {% if page.title != 'Template' %}
+                <li class="nav-item">
+                    <a href="{{ page.url }}">{{ page.title }}</a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>

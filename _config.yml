@@ -1,0 +1,82 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+name: The Government We Need
+email: thegovweneed@govfresh.com
+description: A podcast exploring the government of the future and how it can best serve everyone.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://thegovweneed.com" # the base hostname & protocol for your site, e.g. http://example.com
+google_analytics: UA-139072626-1
+
+github_username: thegovweneed
+twitter_username: thegovweneed
+linkedin_link: https://linkedin.com/company/thegovweneed
+facebook_link: https://facebook.com/thegovweneed
+instagram_username: thegovweneed
+medium_link: https://medium.com/the-government-we-need
+subscribe_link: http://eepurl.com/gplCpr
+rss: episodes/atom.xml
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+feed:
+  path: episodes/atom.xml
+
+permalink: /:title
+
+collections:
+  pages:
+    output: true
+    permalink: :title
+  topics:
+    output: true
+    permalink: topics/:title
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: episode/:title
+  - scope:
+      path: ""
+      type: "topics"
+    values:
+      layout: "topic"
+      
+paginate: 10
+paginate_path: "/episodes/page:num"
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - assets
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
+  - readme.md

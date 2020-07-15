@@ -1,0 +1,29 @@
+---
+layout: wrapper
+title: Subscribe
+description: Subscribe to The Government We Need.
+excerpt: Subscribe to The Government We Need.
+---
+<div class="container subscribe">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card-deck">
+                {% for subscribe in site.data.subscribe.docs %}
+                <div class="card">
+                    <div class="card-body">
+                        <a href="{{ subscribe.url }}"><img src="{{ site.url }}/{{ subscribe.img }}" alt="{{ subscribe.title }}"></a>
+                        <h3>
+                            <a href="{{ subscribe.url }}" class="stretched-link">
+                                {{ subscribe.title }}
+                            </a>
+                        </h3>
+                    </div>
+                    <div class="card-footer">
+                        <a class="btn btn-primary" href="{{ subscribe.url }}" role="button">Subscribe</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

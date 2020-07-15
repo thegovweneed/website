@@ -1,0 +1,31 @@
+---
+layout: default
+---
+{% assign posts = site.posts | where: "categories", page.title %}
+<div class="episodes">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card-deck">
+                    {% if posts != empty %}
+                    {% for page in posts %}
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="{{ page.url }}"><img src="{{ site.url }}/img/people/{{ page.feat-img }}" alt="{{ page.title }}"></a>
+                            <h3>
+                                <a href="{{ page.url }}" class="stretched-link">
+                                    #{{ page.number }}: {{ page.title }}
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="card-footer">
+                            <a class="btn btn-primary" href="{{ page.url }}" role="button">Listen</a>
+                        </div>
+                    </div>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

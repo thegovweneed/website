@@ -1,0 +1,31 @@
+---
+layout: default
+title: Episodes
+description: The Government We Need episodes.
+excerpt: The Government We Need episodes.
+---
+<div class="episodes">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card-deck">
+                    {% for post in site.posts %}
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="{{ page.url }}"><img src="{{ site.url }}/img/people/{{ post.feat-img }}" alt="{{ post.title }}"></a>
+                            <h3>
+                                <a href="{{ post.url }}" class="stretched-link">
+                                    #{{ post.number }}: {{ post.title }}
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="card-footer">
+                            <a class="btn btn-primary" href="{{ post.url }}" role="button">Listen</a>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

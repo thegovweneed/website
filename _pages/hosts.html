@@ -1,0 +1,23 @@
+---
+layout: default
+title: Hosts
+description: The Government We Need hosts.
+excerpt: The Government We Need hosts.
+jumbotron: jumbotron-secondary
+---
+<div class="container hosts">
+    {% for hosts in site.data.hosts.docs %}
+    <div class="row section">
+        <div class="col-md-3">
+            <img src="{{ site.url }}/img/people/{{ hosts.img }}" alt="{{ hosts.name }}">
+        </div>
+        <div class="col-md-9">
+            <h2>
+                {{ hosts.name }}
+            </h2>
+            {{ hosts.bio | markdownify }}
+            <p>{% if hosts.twitter %}<a href="{{ hosts.twitter }}"><i class="fab fa-twitter" aria-hidden="true"></i></a>{% endif %} {% if hosts.linkedin %}<a href="{{ hosts.linkedin }}"><i class="fab fa-linkedin" aria-hidden="true"></i></a>{% endif %}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>

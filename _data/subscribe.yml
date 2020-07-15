@@ -1,0 +1,22 @@
+docs_list_title: subscribe
+docs:
+
+- title: Apple Podcasts
+  url: https://podcasts.apple.com/us/podcast/the-government-we-need/id1468169431
+  img: img/logos/apple-podcasts.png
+
+- title: Spotify
+  url: https://open.spotify.com/show/7jZIZh0oxJeq9jPheo9eJq
+  img: img/logos/spotify.png
+
+- title: Pocket Casts
+  url: https://pca.st/WQa8
+  img: img/logos/pocket-casts.png
+
+- title: Stitcher
+  url: https://www.stitcher.com/s?fid=427823&refid=stpr
+  img: img/logos/stitcher.png
+
+- title: YouTube
+  url: https://www.youtube.com/channel/UCcFSSqWff_oDL3XwD4rs4uw
+  img: img/logos/youtube.png

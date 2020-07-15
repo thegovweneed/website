@@ -1,0 +1,55 @@
+---
+layout: home
+---
+{% include header.html %}
+{% include nav.html %}
+<main id="main-content">
+    <div class="jumbotron {{ page.jumbotron }}">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="{{ site.url }}"><img src="{{ site.url }}/img/avatar.png" alt="{{ site.name }}: {{ site.description }}"></a>
+                </div>
+                <div class="col-md-8">
+                    <h1>{{ page.title }}</h1>
+                    {% if page.description %}
+                    <p class="lead">{{ page.description }}</p>
+                    {% endif %}
+                    {% if page.action %}
+                    <div class="request">
+                        <p><a class="btn btn-primary btn-lg" href="{{ page.action-link }}" role="button">{{ page.action }}</a></p>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include episodes.html %}
+    {% include subscribe.html %}
+    <div class="container connect">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Connect</h2>
+            </div>
+            <div class="col-md-12">
+                <div class="card-deck">
+                    {% for connect in site.data.connect.docs %}
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="{{ connect.url }}">{{ connect.icon }}</a>
+                            <h3>
+                                <a href="{{ connect.url }}" class="stretched-link">
+                                    {{ connect.name }}
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="card-footer">
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{% include footer.html %}

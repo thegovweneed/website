@@ -1,0 +1,26 @@
+docs_list_title: connect
+docs:
+
+- name: Newsletter
+  url: http://eepurl.com/gplCpr
+  icon: <i class="fas fa-envelope"></i>
+
+- name: Twitter
+  url: https://twitter.com/thegovweneed
+  icon: <i class="fab fa-twitter"></i>
+
+- name: Facebook
+  url: https://facebook.com/thegovweneed
+  icon: <i class="fab fa-facebook-f"></i>
+
+- name: Instagram
+  url: https://instagram.com/thegovweneed
+  icon: <i class="fab fa-instagram"></i>
+
+- name: Medium
+  url: https://medium.com/the-government-we-need
+  icon: <i class="fab fa-medium-m"></i>
+
+- name: LinkedIn
+  url: https://linkedin.com/company/thegovweneed
+  icon: <i class="fab fa-linkedin"></i>

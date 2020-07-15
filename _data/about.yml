@@ -1,0 +1,23 @@
+docs_list_title: about
+docs:
+
+- title: Subscribe
+  url: /subscribe
+
+- title: Episodes
+  url: /episodes
+
+- title: Hosts
+  url: /hosts
+
+- title: Topics
+  url: /topics
+
+- title: Sponsor
+  url: /sponsor
+
+- title: Contact
+  url: /contact
+
+- title: Colophon
+  url: /colophon
