@@ -13,6 +13,10 @@ img {
     border-radius: 3px;
 }
 
+.news img {
+    margin-bottom: 1rem;
+}
+
 /* Links */
 
 a,
@@ -31,9 +35,11 @@ main a:hover {
     text-decoration: none;
 }
 
+/* Paragraph / lists */
+
 main p,
 main li {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
 }
 
 /* Headings */
@@ -116,13 +122,6 @@ blockquote li {
     color: #ffffff;
     font-size: 1.3rem;
     font-weight: 300;
-}
-
-/* News */
-
-.news p,
-.news li {
-    font-size: 1.25rem;
 }
 
 /* Cards */
@@ -374,6 +373,7 @@ a.btn-primary:hover {
 
 .footer img {
     margin-bottom: 1rem;
+    max-width: 200px;
 }
 
 .footer ul {
