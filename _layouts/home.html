@@ -26,6 +26,26 @@ layout: home
     </div>
     {% include episodes.html %}
     {% include subscribe.html %}
+    <div class="container section">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Topics</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="nav nav-pills">
+                    {% for page in site.topics %}
+                    {% if page.title != 'Template' %}
+                    <li class="nav-item">
+                        <a href="{{ page.url }}">{{ page.title }}</a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
     <div class="container connect">
         <div class="row">
             <div class="col-md-12">

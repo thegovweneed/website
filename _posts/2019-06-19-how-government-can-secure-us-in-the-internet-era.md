@@ -7,6 +7,7 @@ description: The Government We Need talks with Bruce Schneier about internet+ se
 excerpt: The Government We Need talks with Bruce Schneier about internet+ security and government’s role in keeping us safe.
 date: 2019-06-19
 categories:
+  -  Government
   -  Policy
   -  Security
   -  Technology

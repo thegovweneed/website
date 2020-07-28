@@ -8,6 +8,7 @@ excerpt: The Government We Need talks with Run for Something’s Sarah Horvitz a
 date: 2019-07-25
 categories:
   -  Elections
+  -  Government
 author: The Government We Need
 audio: tgwn-2.mp3
 apple: https://podcasts.apple.com/us/podcast/how-we-can-bring-more-diversity-into-elected-office/id1468169431?i=1000445348682
