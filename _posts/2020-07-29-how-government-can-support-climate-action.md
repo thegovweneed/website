@@ -11,9 +11,9 @@ categories:
   -  Sustainability
 author: The Government We Need
 audio: tgwn-5.mp3
-apple: 
-spotify: 
-stitcher: 
+apple: https://podcasts.apple.com/us/podcast/the-government-we-need/id1468169431
+spotify: https://open.spotify.com/show/7jZIZh0oxJeq9jPheo9eJq
+stitcher: https://www.stitcher.com/s?fid=427823&refid=stpr
 pocketcasts: https://pca.st/WQa8
 feat-img: rick-cole.png
 feat-img-alt: Rick Cole
