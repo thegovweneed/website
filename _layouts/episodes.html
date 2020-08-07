@@ -26,7 +26,13 @@ layout: episodes
         </div>
         <div class="row section">
             <div class="col-md-3">
+
+
+<figure class="image">
                 <img src="{{ site.url }}/img/people/{{ page.feat-img }}" alt="{{ page.feat-img-alt }}">
+  <figcaption>{{ page.feat-img-alt }}</figcaption>
+</figure>
+
             </div>
             <div class="col-md-9">
                 <audio id="player" controls>
@@ -58,7 +64,7 @@ layout: episodes
             <div class="col-md-3">
             </div>
             <div class="col-md-9">
-                <h2>Notes</h2>
+                <h2>In this episode</h2>
                 {{ content }}
                 {{ page.related }}
                 <h2>Topics</h2>
