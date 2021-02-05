@@ -17,6 +17,9 @@ stitcher: https://www.stitcher.com/podcast/the-government-we-need/e/61974498
 pocketcasts: https://pca.st/WQa8
 feat-img: sarah-horvitz.jpg
 feat-img-alt: Sarah Horvitz
+sponsor: ProudCity
+sponsor-link: https://proudcity.com
+sponsor-about: The easiest, most cost-effective way to launch and manage local government digital services.
 
 ---
 

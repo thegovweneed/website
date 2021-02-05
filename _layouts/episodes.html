@@ -26,13 +26,10 @@ layout: episodes
         </div>
         <div class="row section">
             <div class="col-md-3">
-
-
-<figure class="image">
-                <img src="{{ site.url }}/img/people/{{ page.feat-img }}" alt="{{ page.feat-img-alt }}">
-  <figcaption>{{ page.feat-img-alt }}</figcaption>
-</figure>
-
+                <figure class="image">
+                    <img src="{{ site.url }}/img/people/{{ page.feat-img }}" alt="{{ page.feat-img-alt }}">
+                    <figcaption>{{ page.feat-img-alt }}</figcaption>
+                </figure>
             </div>
             <div class="col-md-9">
                 <audio id="player" controls>
@@ -67,6 +64,15 @@ layout: episodes
                 <h2>In this episode</h2>
                 {{ content }}
                 {{ page.related }}
+                <div class="alert alert-light" role="alert">
+                    <h2>The support we need</h2>
+                    <p>Thank you to <a href="{{ page.sponsor-link }}">{{ page.sponsor }}</a> for supporting The Government We Need. <i class="fas fa-heart"></i></p>
+                    <hr/>
+                    <h3>About {{ page.sponsor }}</h3>
+                    <p>{{ page.sponsor-about }}</p>
+                    <p><a href="{{ page.sponsor-link }}">Visit {{ page.sponsor }}</a> <i class="fas fa-external-link-alt"></i></p>
+                </div>
+                    <p class="text-right"><a href="/sponsor">Sponsor The Government We Need</a></p>
                 <h2>Topics</h2>
                 <div class="post-categories">
                     {% if post %}

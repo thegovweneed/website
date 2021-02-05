@@ -17,6 +17,9 @@ stitcher: https://www.stitcher.com/podcast/the-government-we-need/e/63211512
 pocketcasts: https://pca.st/WQa8
 feat-img: brian-elms.jpg
 feat-img-alt: Brian Elms
+sponsor: ProudCity
+sponsor-link: https://proudcity.com
+sponsor-about: The easiest, most cost-effective way to launch and manage local government digital services.
 
 ---
 

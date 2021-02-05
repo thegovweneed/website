@@ -17,7 +17,9 @@ stitcher: https://www.stitcher.com/podcast/the-government-we-need/e/62805554
 pocketcasts: https://pca.st/WQa8
 feat-img: shari-davis.jpg
 feat-img-alt: Shari Davis
-
+sponsor: ProudCity
+sponsor-link: https://proudcity.com
+sponsor-about: The easiest, most cost-effective way to launch and manage local government digital services.
 ---
 
 [Participatory budgeting](https://www.participatorybudgeting.org/what-is-pb/) is a process that empowers community members to help decide how to spend part of a public budget. PB started in Brazil in 1989, and has since spread to more than 7,000 cities around the world. It has been used to decide budgets from states, counties, cities, housing authorities, schools, and other institutions. The New York Times calls PB “revolutionary civics in action."

@@ -19,6 +19,9 @@ stitcher: https://www.stitcher.com/podcast/the-government-we-need/e/62805554
 pocketcasts: https://pca.st/WQa8
 feat-img: amanda-renteria.jpg
 feat-img-alt: Amanda Renteria
+sponsor: ProudCity
+sponsor-link: https://proudcity.com
+sponsor-about: The easiest, most cost-effective way to launch and manage local government digital services.
 
 ---
 

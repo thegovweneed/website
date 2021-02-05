@@ -79,6 +79,42 @@ blockquote li {
     font-size: 1.5rem !important;
 }
 
+/* Selection */
+
+::selection {
+    background: #F8E71C;
+    /* WebKit/Blink Browsers */
+    color: #212121;
+}
+
+::-moz-selection {
+    background: #F8E71C;
+    /* Gecko Browsers */
+    color: #212121;
+}
+
+/* Alert */
+
+.alert-light {
+    border: 1px solid #F8E71C;
+    background-color: #F8E71C;
+    color: #212121;
+    padding-bottom: 1.75rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.alert-light p {
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+.alert-light hr {
+    border-top: 1px solid #000000;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
 /* Hosts */
 
 .hosts .fab {
